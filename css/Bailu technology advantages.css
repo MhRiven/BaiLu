@@ -1,0 +1,507 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body,section{
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+}
+img{
+	max-width: 100%;
+}
+#logo{
+	top: 10px;
+	position: absolute;
+	top: 9px;
+	left: 80px;
+}
+#bailu{
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	/*display: none;*/
+}
+.one{
+	position: absolute;
+	position: relative;
+	background: black;
+	height: 58px;
+}
+.navbar-header{
+	height: 58px;
+	/*margin: 0 auto;*/
+}
+#chanpinlist{
+	width: 828px;
+	height: 183px;
+	/*background: black;*/
+	position: absolute;
+	/*top: 58px;*/
+	display: none;
+}
+/*#chanpin{
+	width: 58px;
+	height: 58px;
+}*/
+#chanpinhezi:hover #chanpinlist{
+	display: block;
+}
+.btns{
+	color: gray;
+	padding-top: 15px;
+	padding-left: 15px;
+	vertical-align: center;
+	width: 207px;
+	height: 61px;
+	float: left;
+	background: black;
+}
+.btns:hover{
+	color: white;
+}
+#kejiheadpic{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 58px;
+}
+#gongsijianjie{
+	width: 76%;
+	height: 20vw;
+	margin: 0 auto;
+	position: relative;
+	top: 8vw;
+	/*background: lawngreen;*/
+}
+#gongsijianjiefont{
+	width: 100%;
+	height: 5vw;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5vw;
+	color: dodgerblue;
+}
+.jianjiepic{
+	width: 100%;
+	height: 12vw;
+	/*background: orange;*/
+}
+.jianjiepic img{
+	width: 75%;
+	position: relative;
+	left: 5vw;
+	top: 0.2vw;
+	height: auto;
+}
+.jianjiefont{
+	width: 100%;
+	height: 12vw;
+	/*background: lightblue;*/
+}
+.font{
+	color: gray;
+	position: relative;
+	top: 0.2vw;
+}
+#youshi{
+	width: 100%;
+	height: 28vw;
+	margin: 0 auto;
+	position: relative;
+	top: 8vw;
+	background: #f7fafc;
+}
+#youshifont{
+	position: relative;
+	top: 3vw;
+	width: 100%;
+	height: 5vw;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5vw;
+	color: dodgerblue;
+}
+#fourfangan{
+	width: 80%;
+	height: 22vw;
+	margin: 0 auto;
+	position: relative;
+	/*background: lawngreen;*/
+}
+.fangan img{
+	width: 3.65vw;
+	height: 3.65vw;
+	position: relative;
+	margin-left: 7vw;
+}
+.fangan{
+	width: 100%;
+	height: 18vw;
+	/*background: orange;*/
+	position: relative;
+	top: 4vw;
+}
+.fanganhead1{
+	font-size: 0.8vw;
+	position: relative;
+	top: 1vw;
+	left: 5vw;
+}
+.hengxian{
+	width: 2.5vw;
+	height: 0.1vw;
+	background: dodgerblue;
+	position: relative;
+	top: 2.5vw;
+	left: 7.6vw;
+}
+.fanganjuti1{
+	font-size: 0.7vw;
+	position: relative;
+	top: 2vw;
+}
+#rongyu{
+	width: 100%;
+	height: 40vw;
+	margin: 0 auto;
+	position: relative;
+	top: 12vw;
+	background: #f7fafc;
+}
+#rongyufont{
+	position: relative;
+	top: 2vw;
+	width: 100%;
+	height: 5vw;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5vw;
+	color: dodgerblue;
+}
+.rongyubox{
+	width: 70%;
+	height: 29vw;
+	margin: 0 auto;
+	/*background: black;*/
+	position: relative;
+	top: 2vw;
+}
+.rongyu1{
+	width: 100%;
+	height: 28vw;
+	background: white;
+	border-radius: 5px;
+}
+.smalltimeline{
+	width: 90%;
+	height: 0.4vw;
+	background: dodgerblue;
+	position:absolute;
+	top: 0.8vw;
+	left: 5%;
+	border-radius: 10px;
+}
+.smallrongyulist{
+	width: 80%;
+	height: 20vw;
+	/*background: blueviolet;*/
+	position: relative;
+	margin: 0 auto;
+	top: 1vw;
+}
+.smallrongyulist li{
+	position: relative;
+	margin-top: 1vw;
+}
+.smalltime1{
+	z-index: 1;
+	position: relative;
+	margin: 0 auto;
+	width: 7vw;
+	height: 2vw;
+	text-align: center;
+	/*border: 1px solid lightgray;*/
+	border-radius: 25px;
+	background: dodgerblue;
+}
+.smalltime1 span{
+	color: white;
+	font-size: 0.8vw;
+	position: relative;
+	top: 25%;
+}
+#lianxi{
+	width: 100%;
+	height: 30vw;
+	background: #f7fafc;
+	position: relative;
+	top: 15vw;
+}
+#lianxifont{
+	position: relative;
+	top: 3vw;
+	width: 100%;
+	height: 5vw;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5vw;
+	color: dodgerblue;
+}
+.smallmap{
+	width: 100%;
+	height: 20vw;
+	/*background: lawngreen;*/
+	position: relative;
+	top: 2vw;
+}
+.smallmapfont{
+	position: relative;
+	top: 2vw;
+	width: 100%;
+	height: 20vw;
+	/*background: orange;*/
+}
+#smallmappic{
+	width: 80%;
+	height: 20vw;
+	position: relative;
+	margin: 0 auto;
+	/*background: dodgerblue;*/
+}
+#smallmappic img{
+	position: relative;
+	left: 7vw;
+	top: 1vw;
+}
+.smallmapfontthree{
+	width: 80%;
+	height: 20vw;
+	position: relative;
+	/*background: purple;*/
+}
+.smallmapfontthree img{
+	width: 2.5vw;
+	height: 2.5vw;
+	position: relative;
+	top: 7vw;
+	left: 2.5vw;
+}
+.smalllianxifangshi{
+	width: 60%;
+	font-size: 0.8vw;
+	color: gray;
+	position: relative;
+	top: 7.7vw;
+	left: 2.1vw;
+}
+.smalllianxihengxian{
+	width: 2.5vw;
+	height: 0.13vw;
+	background: dodgerblue;
+	position: relative;
+	top: 8vw;
+	left: 2.45vw;
+}
+.smalltel1{
+	position: relative;
+	top: 8.5vw;
+	left: 0.9vw;
+	width: 60%;
+	font-size: 0.9vw;
+	color: gray;
+}
+.smalltel{
+	width: 60%;
+	font-size: 0.9vw;
+	color: gray;
+	position: relative;
+	top: 8.5vw;
+}
+#joinus{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 15vw;
+}
+#jiaruwomen{
+	z-index: 1;
+	position: absolute;
+	top: 32%;
+	left: 46%;
+	margin: 0 auto;
+	width: 8vw;
+	height: 2.3vw;
+	text-align: center;
+	/*border: 1px solid lightgray;*/
+	border-radius: 25px;
+	background: dodgerblue;
+}
+#jiaruwomen span{
+	color: white;
+	font-size: 1vw;
+	position: relative;
+	top: 20%;
+}
+#xihuan{
+	width: 11%;
+	height: 1.5vw;
+	/*background: blue;*/
+	position: absolute;
+	top: 58%;
+	left: 44.5%;
+}
+#xihuan span{
+	color: white;
+	font-size: 0.9vw;
+}
+#bottom{
+	position: relative;
+	top: 15vw;
+	width: 100%;
+	height: 9.4vw;
+	/*background: lawngreen;*/
+}
+#bottom1{
+	width: 100%;
+	height: 7.2vw;
+	background: #6b7a93;
+}
+#bottomlist{
+	display: flex;
+	justify-content: center;
+	border-right: 1px solid #8791A5;
+	position: relative;
+	top: 0.6vw;
+	width: 56%;
+	left: 11vw;
+	height: 6vw;
+	/*background: deepskyblue;*/
+}
+#bottomlist a:hover{
+	color: darkblue;
+}
+#bottomlist a{
+	text-decoration: none;
+	position: relative;
+	top: 2.2vw;
+	color: #F6F9FC;
+    margin-right: 4.5vw;
+    font-size: 1.1vw;
+}
+#chatpic{
+	position: absolute;
+	bottom: 6vw;
+	right: 14vw;
+}
+#chatpic img{
+	margin-left: 1vw;
+	width: 2.7vw;
+	height: 2.7vw;
+}
+#youxiang{
+	font-size: 0.85vw;
+	position: absolute;
+	top: 4vw;
+	color: #a5b3d0;
+	right: 14vw;
+}
+#bottom2{
+	width: 100%;
+	height: 2.2vw;
+	background: #5c6679;
+	font-size: 0.8vw;
+	color: white;
+}
+#bottom2font{
+	position: relative;
+	top: 25%;
+	width: 100%;
+	/*background: red;*/
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*小于1200px图片logo消失*/
+@media screen and (max-width:1200px){
+#logo{
+    display: none;
+}
+#chanpinhelist{
+    display: none; 
+}
+}
+
+
+/*小于768px时*/
+@media screen and (max-width:767px){
+	#chanpinhezi #chanpinlist div li{display: none;}
+	.own{
+		background: #222222;
+		width: 100%;
+		position: absolute;
+		left: 0px;
+	}
+	.own a:hover{
+		text-decoration: none;
+	}
+	.own a div span{
+		color: white;
+		line-height: 58px;
+		position: relative;
+		padding-left: 20px;
+	}
+	.own a div:hover span{
+		color: deepskyblue;
+	}
+	#chanpinhezi span{
+		color: white;
+		line-height: 58px;
+		padding-left: 20px;
+	}
+	#chanpinhezi:hover #chanpin{
+		color: deepskyblue;
+	}
+}
+
+
+
+/*大于768px时*/
+@media screen and (min-width:768px){
+#bailu{display: none;}
+.own{
+	display: flex;
+	justify-content: center;
+    width: 100%;
+    height: 58px;
+    /*background: lawngreen;*/
+}
+.own a span{
+	margin-left: 27px;
+	color: white;
+	font-size: 14px;
+	line-height: 58px;
+}
+.own a:hover span{
+	color: deepskyblue;
+}
+.own a:hover{
+	text-decoration: none;
+}
+}

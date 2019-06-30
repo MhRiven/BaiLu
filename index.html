@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+		<link href="img/index/BL.ico" rel="icon" type="image/x-icon" />
+		<title>白鹭科技-Egret</title>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css"/>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/holder.js"></script>
+	</head>
+	<body>
+		
+	<nav class="navbar-inverse navbar-fixed-top one" id="header">
+		<div class="">
+			<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				       	 <img src="img/index/navmore.png"/>
+				     	</button>
+			     	
+			     	<div>
+						<img src="img/index/logo.png" style="width: 126px; height: 40px;" id="logo"/>
+						<span id="bailu">白鹭科技</span>
+					</div>
+			</div>
+			
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="own">
+					      		<a href="index.html"><div id=""><span>首页</span></div></a>
+					           	<a href="html/Foods.html"><div id="chanpinhezi"><span id="chanpin">产品</span>
+					           	<div id="chanpinlist">
+					           		<div>
+						           		<a href=""><li class="btns"><img src="img/index/product-icon-engine.jpg">&nbsp;&nbsp;Egret Engine</li></a>
+								    	<a href=""><li class="btns"><img src="img/index/logo (1).png" style="width: 35px ; height: 35px;">&nbsp;&nbsp;Egret3D</li></a>
+								    	<a href=""><li class="btns"><img src="img/index/product-icon-native.jpg" style="width: 35px ; height: 35px;">&nbsp;&nbsp;Egret Native</li></a>
+								    	<a href=""><li class="btnsright"><img src="img/index/product-icon-wing.jpg">&nbsp;&nbsp;Egret Wing</li></a>
+								    	<a href=""><li class="btns"><img src="img/index/product-icon-dragonbones.jpg">&nbsp;&nbsp;DragonBones</li></a>
+								    	<a href=""><li class="btns"><img src="img/index/product-icon-feather.jpg">&nbsp;&nbsp;Egret Feather</li></a>
+								    	<a href=""><li class="btns"><img src="img/index/product-icon-texture.jpg">&nbsp;&nbsp;Texture Merger</li></a>
+								    	<a href=""><li class="btnsright"><img src="img/index/product-icon-resdepot.jpg">&nbsp;&nbsp;Res Depot</li></a>
+								    	<a href=""><li class="btnsbottom"><img src="img/index/product-icon-inspector.jpg">&nbsp;&nbsp;Egret Inspector</li></a>
+								    	<a href=""><li class="btnsbottom"><img src="img/index/product-icon-lakeshore.jpg">&nbsp;&nbsp;Lakeshore</li></a>
+								    	<li class="btnsbottom"></li>
+								    	<li class="btnslast"></li>
+							    	</div>
+					           	</div>
+					           	</div></a>
+					           	
+							    <a href="#"><div><span>解决方案</span></div></a>
+							    <a href="#"><div><span>开发者中心</span></div></a>
+							    <a href="#"><div><span>案例</span></div></a>
+							    <a href="#"><div><span>众包平台</span></div></a>
+							    <a href="#"><div><span>教育</span></div></a>
+							    <a href="#"><div><span>区块链实验室</span></div></a>
+							    <a href="#"><div><span>社区</span></div></a>
+							  	<a href="#"> <div><span>关于我们</span></div></a>
+					
+					</div>
+			
+			</div>
+		</div>
+	</nav>
+	
+	<div class="" id="bpbox">
+        
+        			<div class="fourfunction">
+						<a class="fourfunctionlist" href="html/Technology advantages.html"><li><img src="img/index/bottom1.png"><span>白鹭科技优势</span></li></a>
+						<a class="fourfunctionlist" href="html/Engine service.html"><li><img src="img/index/bottom2.png"><span>白鹭引擎服务</span></li></a>
+						<a class="fourfunctionlist" href="html/Gamecases.html"><li><img src="img/index/bottom3.png"><span>游戏案例精选</span></li></a>
+						<a class="fourfunctionlist" id="fourfunctionlist4" href=""><li><img src="img/index/bottom4.png"><span>开发者快速入门</span></li></a>
+			        </div>
+			        
+        
+        
+        		<!--index第一个大轮播-->
+			<div id="picbox">
+				<li class="bigPic"><img src="img/index/kv1.jpg"/></li>
+				<li class="bigPic"><img src="img/index/kv2.jpg"/></li>
+				<li class="bigPic"><img src="img/index/kv3.jpg"/></li>
+				
+				<input id="leftBut" type="button" name="name" value="<">
+				<input id="rightBut" type="button" name="name" value=">">
+				
+				<div class="follow">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			
+				<!--index第一个小于768px的轮播-->
+				<div id="picbox1">
+					<li class="bigPico"><img src="img/index/kv1.png"/></li>
+					<li class="bigPico"><img src="img/index/kv2.png"/></li>
+					<li class="bigPico" id="bigPico3"><img src="img/index/kv3 (1).jpg"/></li>
+				</div>
+			
+			<script src="js/IndexFirstBigHeader.js"></script>
+			<script src="js/IndexFirstSmallHeader.js"></script>
+			
+			<!--index小于768px时的第二个大轮播-->
+			<div class="lunbo2-1">
+				
+				<div class="span2">
+					
+					<div class="span2-1">效率至上的一站式完整开发工作流</div>
+					<div class="span2-2">2D/3D双核心渲染，开发工具链闭环整合，全流程开发由此开始</div>
+					
+					<div id="lunbo2-1pic">
+						<li><img src="img/index/engine1.png"/></li>
+						<li><img src="img/index/engine2.png"/></li>
+						<li><img src="img/index/engine3.png"/></li>
+						
+						
+					<input id="smallleftButo" type="image" name="name" src="img/index/iconRight.png">
+					<input id="smallrightButo" type="image" name="name" src="img/index/iconLeft.png">
+					
+					<div class="follow2">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					
+					<script src="js/IndexSecondSmallShuffling.js"></script>
+					</div>
+					
+					<div class="span2-3">一站对接各大平台</div>
+					
+					
+					
+					
+					
+							<div id="app-1">
+							<li><img src="img/index/wx.png" /></li>
+							<li><img src="img/index/h5.png" /></li>
+							<li><img src="img/index/qz.png" /></li>
+							<li><img src="img/index/an.png" /></li>
+							<li><img src="img/index/ap.png" /></li>
+							<li><img src="img/index/fb.png" /></li>
+							</div>
+				
+				</div>	
+					
+			</div>
+			
+			
+			<!--小于768px时的案例推荐-->
+			<div id="smallanli">
+			
+				<div id="smallanlituijian">
+					<div class="col-sm-3 smallpicspan">
+						<img src="img/index/pen (1).png" class=""/><span>案例推荐</span>
+					</div>
+				</div>
+				
+				
+				<div class="col-xs-12" id="smallanlipic">
+					<div class="smallanlipics"><a href=""><img src="img/index/5bae028e80982.png" /></a></div>
+					<div class="smallanlipics"><a href=""><img src="img/index/5bae029faf057.png" /></a></div>
+					<div class="smallanlipics"><a href=""><img src="img/index/5c985ba166f0d.png" /></a></div>
+					
+					<div id="smallchakan"><span>查看更多</span></div>
+				</div>
+				
+			</div>
+			
+			
+			<!--小于768px时的新闻动态-->
+			<div id="smallxinwen">
+			
+				<div id="smallxinwendongtai">
+					<div class="col-sm-3 smallpicspan">
+						<img src="img/index/pen (1).png" class=""/><span>新闻动态</span>
+					</div>
+				</div>
+				
+				
+				<div class="col-xs-12" id="smallxinwenpic">
+					<a href=""><div class="smallxinwenpics col-xs-6">
+						<img src="img/index/5d00e18ba78db.png" />
+							<div class="xinwenfont col-xs-6">
+								<span>白鹭、凯撒、国金看准5G风口，诚邀各路豪杰共赢云游戏</span>
+							</div>
+					</div></a>
+					
+					<a href=""><div class="smallxinwenpics col-xs-6">
+						<img src="img/index/5c74a090a4ffe.jpg" />
+							<div class="xinwenfont col-xs-6">
+								<span>白鹭引擎团队即将发布Egret Pro,并公布后续路线图</span>
+							</div>
+					</div></a>
+					
+					<a href=""><div class="smallxinwenpics col-xs-6">
+						<img src="img/index/5c2efbeb46f9a.jpg" />
+							<div class="xinwenfont col-xs-6">
+								<span>Egret Wing全新形态开启内测，发布全新工具</span>
+							</div>
+					</div></a>
+
+					<div id="smallxinwenchakan"><span>查看更多</span></div>
+					
+				</div>
+				
+			</div>
+			
+			
+			<!--小于768px时的技术博客-->
+			<div id="smalljishu">
+			
+				<div id="smalljishuboke">
+					<!--<div class="col-sm-3 smallpicspan" id="bokespan">-->
+						<img src="img/index/pen (1).png" class=""/><span>技术博客</span>
+					<!--</div>-->
+				</div>
+				
+				
+				<div class="col-xs-12" id="smalljishupic">
+					<a href=""><div class="smalljishupics col-xs-4">
+						<img src="img/index/5caafdfa816e0.jpg" />
+							<div class="jishufont col-xs-8">
+										<div  class="smallcainiao">
+											<span>菜鸟丨Egret制作打砖块</span>
+										</div>
+										<div class="smalljishuxiangqing">
+											<span>详情</span>	
+										</div>
+										<div class="smalljishushijian">
+											<span>发布于 2019年4月4日</span>
+										</div>
+							
+							</div>
+							
+					</div></a>
+					
+					<a href=""><div class="smalljishupics col-xs-4">
+						<img src="img/index/5caafdceeacbc.jpg" />
+							<div class="jishufont col-xs-8">
+										<div  class="smallcainiao">
+											<span>菜鸟丨扑克牌翻牌特效</span>
+										</div>
+										<div class="smalljishuxiangqing">
+											<span>详情</span>	
+										</div>
+										<div class="smalljishushijian">
+											<span>发布于 2019年3月2日</span>
+										</div>
+							
+							</div>
+							
+					</div></a>
+					
+					<a href=""><div class="smalljishupics col-xs-4">
+						<img src="img/index/5caafd87e59ee.jpg" />
+							<div class="jishufont col-xs-8">
+										<div class="smallcainiao">
+										<span>Egret Pro正式发布</span>
+										</div>
+										<div class="smalljishuxiangqing">
+											<span>详情</span>	
+										</div>
+										<div class="smalljishushijian">
+											<span>发布于 2019年3月8日</span>
+										</div>
+							
+							</div>
+							
+					</div></a>
+
+					<div id="smalljishuchakan"><span>查看更多</span></div>
+					
+				</div>
+				
+			</div>
+			
+			
+			<!--小于768时的合作伙伴-->
+			<div id="smallhezuo">
+				<div id="smallhezuohuoban">
+					<!--<div class="col-sm-3 smallpicspan" id="bokespan">-->
+						<img src="img/index/pen (1).png" class=""/><span>合作伙伴</span>
+					<!--</div>-->
+				</div>
+					<div class="col-xs-12 smallhezuopic">
+						<a href=""><div class="col-xs-4"><img src="img/index/google.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/appleB.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/ms.png" /></div></a>
+					</div>
+					
+					<div class="col-xs-12 smallhezuopic">
+						<a href=""><div class="col-xs-4"><img src="img/index/tc.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/mi.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/we.png" /></div></a>
+					</div>
+					
+					<div class="col-xs-12 smallhezuopic">
+						<a href=""><div class="col-xs-4"><img src="img/index/k.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/apus.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/kun.png" /></div></a>
+					</div>
+						
+					<div class="col-xs-12 smallhezuopic">
+						<a href=""><div class="col-xs-4"><img src="img/index/tap.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/yz.png" /></div></a>
+						<a href=""><div class="col-xs-4"><img src="img/index/more.png" /></div></a>
+					</div>
+			</div>
+			
+			
+			<!--小于768px时的底栏-->
+			<div id="smallbottom">
+				<div id="smallbottombox">
+					<div class="smallbottomfont"><span>关于我们</span></div>
+					<div class="smallbottomfont"><span>产品下载</span></div>
+					<div class="smallbottomfont"><span>技术支持</span></div>
+					<div class="smallbottomfont"><span>商务合作</span></div>
+					<div class="smallbottomfont"><span>加入我们</span></div>
+						<div class="smallbottomfontc"><span>联系电话：010-57222734</span></div>
+						<div class="smallbottomfontc"><span>商务合作：BD@egret.com</span></div>
+						<div class="smallbottomfontc"><span>市场合作：Marketing@egret.com</span></div>
+				</div>
+			</div>
+			
+</div>
+	
+	
+	
+<!--白鹭科技加第二个轮播-->
+<div id="banxin">
+	
+	<!--<div class="row">-->
+		<div id="bailuyinqing">
+		<div class="col-sm-3">
+			<img src="img/index/pen.png" class=""/><span>白鹭引擎</span>
+		</div>
+		</div>	
+			<!--第二个大轮播上的文字-->
+			<div class="span1">
+				<div class="span1-1">效率至上的一站式完整开发工作流</div>
+				<div class="span1-2">2D/3D双核心渲染，开发工具链闭环整合，全流程开发，由此开始</div>
+				
+					<img src="img/index/engineLeft.png" id="left"/>
+						<ul id="app">
+						<li><img src="img/index/h5.png" /></li>
+						<li><img src="img/index/ap.png" /></li>
+						<li><img src="img/index/fb.png" /></li>
+						<li><img src="img/index/an.png" /></li>
+						<li><img src="img/index/qz.png" /></li>
+						<li><img src="img/index/wx.png" /></li>
+						</ul>
+					<img src="img/index/engineRight.png" id="right"/>
+				
+			</div>
+			
+			
+			<!--index第二个大轮播-->
+			<div class="lunbo2">
+				<div id="secondlunbo">
+					<li class="secbigPic"><img src="img/index/engine1 (1).png"/></li>
+					<li class="secbigPic" id="secbigPic2"><img src="img/index/engine3 (1).png"/></li>
+					<li class="secbigPic"><img src="img/index/engine2（2）.jpg"/></li>
+					
+					<input id="leftButo" style="outline: none;" type="image" src="img/index/iconRight.png" />
+					<input id="rightButo" style="outline: none;" type="image" src="img/index/iconLeft.png" />
+					
+					<div class="follow1">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					
+					<script src="js/IndexSecondBigShuffling.js"></script>
+					
+				</div>	
+			</div>
+			
+	<!--</div>-->
+</div>
+
+
+<!--案例推荐六个实例-->
+<div id="banxin2">
+		<div id="anlituijian">
+			<div class="col-sm-3">
+				<img src="img/index/pen.png" class=""/><span>案例推荐</span>
+			</div>
+			<a href=""><div class="chakan"><span>查看更多</span></div></a>
+		</div>	
+		
+		
+		<div class="row1">
+				
+				<div class="col-sm-4 anlicol"">
+					<img src="img/index/5bae0283c104d.jpg" class="col-sm-4-pic-1"/>
+					<!--<img src="img/index/5c985b615e519.png" class="col-sm-4-pic-2"/>-->
+					<div class="firanlifont">传奇来了</div>
+					<div class="secanlifont">微信小程序版本还原经典传奇，采用无缝跨屏模式，画面清晰精致，打击感实足。游戏效果写实逼真，角色形象霸气十足！</div>
+				</div>
+				
+				<div class="col-sm-4 anlicol">
+					<img src="img/index/5bae02aac04a3.png"/>
+					<div class="firanlifont">女皇陛下</div>
+					<div class="secanlifont">后宫美男恋爱养成游戏，以历史美男收集，角色换装为主展开宫廷恋爱之旅，兼具古典唯美的画风和丰富的游戏剧情！</div>
+				</div>
+				
+				<div class="col-sm-4 anlicol">
+					<img src="img/index/5bae02b9c85ac.jpg"/>
+					<div class="firanlifont">海盗来了</div>
+					<div class="secanlifont">以海盗为题材的社交类小游戏，玩家可以通过转盘获得金币和道具建造属于自己的海岛，探索新的世界，结交新的朋友！</div>
+				</div>
+				
+				<div class="col-sm-4 anlicol">
+					<img src="img/index/5c985bcdb3dff.png"/>
+					<div class="firanlifont">时光幻境</div>
+					<div class="secanlifont">史诗级魔幻手游，多人同屏真实PK。神秘的魔幻大陆上，有造型华丽的不同种族，也有举世无双的惊世神兵！</div>
+				</div>
+				
+				<div class="col-sm-4 anlicol">
+					<img src="img/index/5c985c6d3d4eb.png"/>
+					<div class="firanlifont">梦道</div>
+					<div class="secanlifont">以仙侣、宠物、酷炫造型为特色的回合制挂置游戏。浓郁的仙侠气息，酷炫的坐骑与翅膀系统！好礼相送，快人一步！</div>
+				</div>
+				
+				<div class="col-sm-4 anlicol">
+					<img src="img/index/5c985c921048c.png"/>
+					<div class="firanlifont">幸福厨房</div>
+					<div class="secanlifont">腾讯独代的趣味经营社交游戏，玩家可根据菜谱烹制菜品，经营饭店，收集生活百感，品尝好友的美食，与好友交换食材。</div>
+				</div>
+				
+		</div>
+			
+</div>
+			
+
+
+<!--新闻动态-->
+<div id="banxin3">
+		<div id="xinwendongtai">
+			<div class="dongtai">
+				<img src="img/index/pen.png" class=""/><span>新闻动态</span>
+			</div>
+			<a href=""><div class="chakan2"><span>查看更多</span></div></a>
+		</div>	
+		
+		
+		<div class="row2">
+				
+				<div class="col-sm-4 xinwencol">
+					<img src="img/index/5d00e18ba78db.png"/>
+					<div class="firanlifont">白鹭、凯撒、国金看准5G风口，诚邀各路豪杰共赢云游戏</div>
+				</div>
+				
+				<div class="col-sm-4 xinwencol">
+					<img src="img/index/5c74a090a4ffe.jpg"/>
+					<div class="firanlifont">白鹭引擎团队即将发布Egret Pro,并公布后续路线图</div>
+				</div>
+				
+				<div class="col-sm-4 xinwencol">
+					<img src="img/index/5c2efbeb46f9a.jpg"/>
+					<div class="firanlifont">Egret Wing全新形态开启内测，发布全新工具</div>
+				</div>
+				
+		</div>
+			
+</div>
+
+
+
+<!--技术博客&社区热帖-->
+<div id="banxin4">
+	<div id="jishuboke">
+			<div class="boke">
+				<img src="img/index/pen.png" class=""/><span>技术博客</span>
+			</div>
+			<a href=""><div class="chakan3"><span>查看更多</span></div></a>
+	</div>
+	
+	<div id="shequretie">
+			<div class="retie">
+				<img src="img/index/pen.png" class=""/><span>社区热帖</span>
+			</div>
+			<a href=""><div class="chakan4"><span>查看更多</span></div></a>
+	</div>
+	
+	<!--技术博客第三个轮播-->  
+	<!--未实现-->
+	<div class="col-sm-6 bokecol">
+		<img src="img/index/5caafdfa816e0.jpg" />
+		<div id="cainiao">菜鸟丨Egret制作打砖块小游戏项目实战</div>
+		<div id="cainiao1">本文我们将通过egret引擎实现一个简单的打砖块游戏...</div>
+		<div id="xiangxi"><a href=""><span>详细</span></a></div>
+		<img id="bokeleft" src="img/index/blogLeft.png" />
+		<img id="bokeright" src="img/index/blogRight.png" />
+	</div>
+	
+	<div class="col-sm-6 retiecol">
+		<div class="retiecolbox">
+			<span>·&nbsp;&nbsp;&nbsp;矩形区域的碰撞检测</span>
+			<div class="dianjiliang dianji"><img src="img/index/view.png">&nbsp;&nbsp;&nbsp5631</div>
+			<!--<hr style="width: 100%;" class="hr"/>-->
+		</div>
+		<div class="retiecolbox">
+			<span>·&nbsp;&nbsp;&nbsp;微信小游戏中第三方库报错解决合集</span>
+			<div class="dianjiliang dianji"><img src="img/index/view.png">&nbsp;&nbsp;&nbsp8369</div>
+			<!--<hr style="width: 100%;" class="hr"/>-->
+		</div>
+		<div class="retiecolbox">
+			<span>·&nbsp;&nbsp;&nbsp;【新手教程2】EUI卡牌游戏的制作全过程</span>
+			<div class="dianjiliang dianji"><img src="img/index/view.png">&nbsp;&nbsp;&nbsp8824</div>
+			<!--<hr style="width: 100%;" class="hr"/>-->
+		</div>
+		<div class="retiecolbox">
+			<span>·&nbsp;&nbsp;&nbsp;游戏开发指南文档，适合新人</span>
+			<div class="dianjiliang dianji"><img src="img/index/view.png">&nbsp;&nbsp;&nbsp19199</div>
+			<!--<hr style="width: 100%;" class="hr"/>-->
+		</div>
+		<div class="retiecolbox">
+			<span>·&nbsp;&nbsp;&nbsp;Egret精品案例系列教程</span>
+			<div class="dianjiliang dianji"><img src="img/index/view.png">&nbsp;&nbsp;&nbsp18146</div>
+			<!--<hr style="width: 100%;"/>-->
+		</div>
+	</div>
+	
+</div>
+
+
+
+<!--合作伙伴-->
+<div id='banxin5'>
+		<div id="hezuohuoban">
+				<div class="hezuo">
+					<img src="img/index/pen.png" class=""/><span>合作伙伴</span>
+				</div>
+				<a href=""><div class="chakan5"><span>查看更多</span></div></a>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="col-sm-2 hezuopic"><img src="img/index/google (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/apple.png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/ms (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/tc (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/mi (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/we (1).png"></div>
+		</div>
+			
+		<div class="container-fluid hezuopicboxone">
+			<div class="col-sm-2 hezuopic"><img src="img/index/k (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/apus (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/fbc.png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/tap (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/yz (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/cu.png"></div>
+		</div>
+		
+		<div class="container-fluid hezuopicboxtwo">
+			<div class="col-sm-2 hezuopic"><img src="img/index/kun (1).png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/360.png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/lie.png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/ya.png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/baidu.png"></div>
+			<div class="col-sm-2 hezuopic"><img src="img/index/oppo.png"></div>
+		</div>
+	
+</div>
+
+
+
+<!--底栏-->
+<div id="bottom">
+	<div id="bottom1">
+		<div id="bottomlist">
+		<a href="">关于我们</a>
+		<a href="">产品下载</a>
+		<a href="">技术支持</a>
+		<a href="">商务合作</a>
+		<a href="">加入我们</a>
+		</div>
+	</div>
+	
+	<div id="chatpic">
+			<img src="img/index/qq.png" />
+			<img src="img/index/wxf.png" />
+			<img src="img/index/sina.png" />
+			<img src="img/index/zhi.png" />
+	</div>
+	
+	<div id="youxiang">邮箱：bd@egret.com</div>
+		
+		
+		
+	<div id="bottom2">
+		<div id="bottom2font">
+		Copyright © 2014-2018 egret.com 京网文[2014]0791-191号 京ICP备14025619号-2 京ICP证150115号 京公网安备11010502027089
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>

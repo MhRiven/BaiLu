@@ -1,0 +1,378 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body,section{
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+}
+img{
+	max-width: 100%;
+}
+#logo{
+	top: 10px;
+	position: absolute;
+	top: 9px;
+	left: 80px;
+}
+#bailu{
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	/*display: none;*/
+}
+.one{
+	position: absolute;
+	position: relative;
+	background: black;
+	height: 58px;
+}
+.navbar-header{
+	height: 58px;
+	/*margin: 0 auto;*/
+}
+#chanpinlist{
+	width: 828px;
+	height: 183px;
+	/*background: black;*/
+	position: absolute;
+	/*top: 58px;*/
+	display: none;
+}
+/*#chanpin{
+	width: 58px;
+	height: 58px;
+}*/
+#chanpinhezi:hover #chanpinlist{
+	display: block;
+}
+.btns{
+	color: gray;
+	padding-top: 15px;
+	padding-left: 15px;
+	vertical-align: center;
+	width: 207px;
+	height: 61px;
+	float: left;
+	background: black;
+}
+.btns:hover{
+	color: white;
+}
+#youxiheadpic{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 58px;
+}
+#banxin3{
+	position: relative;
+	top: 6vw;
+	width: 70%;
+	height: 22vw;
+	margin: 0 auto;
+	/*background: lawngreen;*/
+}
+.row2{
+	position: relative;
+	top: 6.5vw;
+	width: 100%;
+	height: 14vw;
+	/*margin: 0 auto;*/
+	/*background: black;*/
+}
+.xinwencol{
+	position: relative;
+	bottom: 5vw;
+	box-shadow: 0px 13px 28.42px 0.58px rgba(33, 12, 12, 0.05);
+	height: 19vw;
+	border-radius: 1%;
+	background: white;
+}
+.xinwencol img{
+	position: relative;
+	border-radius: 2%;
+	width: 100%;
+	height: auto;
+}
+.firanlifont{
+	width: 100%;
+	height: 1.4vw;
+	/*background: green;*/
+	font-size: 1vw;
+	position: relative;
+	top: 1.6vw;
+}
+#youxianli{
+	width: 100%;
+	height: 10vw;
+	position: relative;
+	top: 7vw;
+	/*background: darkslategray;*/
+}
+#yinqingfuwuhead{
+	width: 80%;
+	height: 5vw;
+	margin: 0 auto;
+	position: relative;
+	top: 5vw;
+	/*background: green;*/
+}
+#yinqingfuwuhead img{
+	/*margin-left: 3.5vw;*/
+	position: relative;
+	top: 1.5vw;
+	width: 30%;
+	float: left;
+}
+#yinqingfuwuheadbox{
+	margin-left: 11.8vw;
+	float: left;
+}
+#yinqingfuwuheadbox span{
+	font-size: 2vw;
+	color: black;
+}
+#lineleft1{
+	position: relative;
+	left: 8.5vw;
+}
+#lineright1{
+	position: relative;
+	left: 3.5vw;
+}
+#banxin2{
+	position: relative;
+	top: 12vw;
+	width: 70%;
+	height: 147vw;
+	margin: 0 auto;
+	/*background: mediumvioletred;*/
+}
+.row1{
+	position: relative;
+	bottom: 1.8vw;
+	width: 100%;
+	height: 140vw;
+	/*background: lawngreen;*/
+}
+.anlicol{
+	box-shadow: 0px 13px 28.42px 0.58px rgba(33, 12, 12, 0.05);
+	float: left;
+	height: 34.5vw;
+	border-radius: 2%;
+	/*background: black;*/
+}
+.anlicol img{
+	position: relative;
+	top: 1vw;
+	border-radius: 2%;
+	/*width: 100%;
+	height: auto;*/
+}
+.firanlifont{
+	width: 100%;
+	height: 1.4vw;
+	/*background: green;*/
+	font-size: 1vw;
+	position: relative;
+	top: 1.6vw;
+}
+.secanlifont{
+	color: darkgray;
+	width: 100%;
+	height: 1.4vw;
+	font-size: 1vw;
+	position: relative;
+	top: 2.3vw;
+}
+#youxianliliebiao{
+	width: 100%;
+	height: 8vw;
+	position: relative;
+	/*background: pink;*/
+}
+#youxianliliebiao img{
+	margin-left: 1vw;
+	float: left;
+	width: 2vw;
+	height: 2vw;
+}
+#liebiaobox{
+	width: 24%;
+	height: 2.2vw;
+	position: relative;
+	left: 38%;
+/*	background: dodgerblue;*/
+}
+.liebiaobutton{
+	margin-left: 1vw;
+	float: left;
+	width: 2.1vw;
+	height: 2.1vw;
+	background: white;
+	border-radius: 50%;
+	border: 2px solid lightgray;
+}
+.liebiaobutton{
+	line-height: 1.8vw;
+	color: gray;
+	text-align: center;
+}
+#bottom{
+	position: relative;
+	top: 12vw;
+	width: 100%;
+	height: 9.4vw;
+	/*background: lawngreen;*/
+}
+#bottom1{
+	width: 100%;
+	height: 7.2vw;
+	background: #6b7a93;
+}
+#bottomlist{
+	display: flex;
+	justify-content: center;
+	border-right: 1px solid #8791A5;
+	position: relative;
+	top: 0.6vw;
+	width: 56%;
+	left: 11vw;
+	height: 6vw;
+	/*background: deepskyblue;*/
+}
+#bottomlist a:hover{
+	color: darkblue;
+}
+#bottomlist a{
+	text-decoration: none;
+	position: relative;
+	top: 2.2vw;
+	color: #F6F9FC;
+    margin-right: 4.5vw;
+    font-size: 1.1vw;
+}
+#chatpic{
+	position: absolute;
+	bottom: 6vw;
+	right: 14vw;
+}
+#chatpic img{
+	margin-left: 1vw;
+	width: 2.7vw;
+	height: 2.7vw;
+}
+#youxiang{
+	font-size: 0.85vw;
+	position: absolute;
+	top: 4vw;
+	color: #a5b3d0;
+	right: 14vw;
+}
+#bottom2{
+	width: 100%;
+	height: 2.2vw;
+	background: #5c6679;
+	font-size: 0.8vw;
+	color: white;
+}
+#bottom2font{
+	position: relative;
+	top: 25%;
+	width: 100%;
+	/*background: red;*/
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*小于1200px图片logo消失*/
+@media screen and (max-width:1200px){
+#logo{
+    display: none;
+}
+#chanpinhelist{
+    display: none; 
+}
+}
+
+
+/*小于768px时*/
+@media screen and (max-width:767px){
+	#chanpinhezi #chanpinlist div li{display: none;}
+	.own{
+		background: #222222;
+		width: 100%;
+		position: absolute;
+		left: 0px;
+	}
+	.own a:hover{
+		text-decoration: none;
+	}
+	.own a div span{
+		color: white;
+		line-height: 58px;
+		position: relative;
+		padding-left: 20px;
+	}
+	.own a div:hover span{
+		color: deepskyblue;
+	}
+	#chanpinhezi span{
+		color: white;
+		line-height: 58px;
+		padding-left: 20px;
+	}
+	#chanpinhezi:hover #chanpin{
+		color: deepskyblue;
+	}
+}
+
+
+
+/*大于768px时*/
+@media screen and (min-width:768px){
+#bailu{display: none;}
+.own{
+	display: flex;
+	justify-content: center;
+    width: 100%;
+    height: 58px;
+    /*background: lawngreen;*/
+}
+.own a span{
+	margin-left: 27px;
+	color: white;
+	font-size: 14px;
+	line-height: 58px;
+}
+.own a:hover span{
+	color: deepskyblue;
+}
+.own a:hover{
+	text-decoration: none;
+}
+}
